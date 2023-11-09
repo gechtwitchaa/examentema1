@@ -40,5 +40,11 @@ int main() {
 
     std::vector<Estudiante> estudiantesFiltrados = filtrarEstudiantesPorGrado(estudiantes, gradoBuscado);
 
+    std::cout << "Estudiantes en " << gradoBuscado << ":" << std::endl;
+    for (const Estudiante& estudiante : estudiantesFiltrados) {
+        std::cout << estudiante.nombre << " (" << estudiante.edad << " años)" << std::endl;
+    }
 
+    return 0;
+}
 
