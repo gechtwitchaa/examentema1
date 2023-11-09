@@ -26,3 +26,15 @@ public:
     }
 };
 
+int main() {
+
+
+// Crear un objeto Profesor
+    Profesor profesor1("Ruben", 35, "Programacion", 13);
+
+    // Llamar a la función mostrar_info_profesor() para mostrar la información del profesor
+    std::cout << "Información del profesor:" << std::endl;
+    profesor1.mostrar_info_profesor();
+
+    return 0;
+}

@@ -19,3 +19,7 @@
 0	1108	7212355695056255	CMakeFiles/filtrado.dir/filtrado.cpp.obj	d64103cfab1e3736
 1	638	7212357657995411	CMakeFiles/excepcionespersonalizadas.dir/excepcionespersonalizadas.cpp.obj	f02af295dc3b74f1
 640	827	7212357659867469	excepcionespersonalizadas.exe	c7ce92c6cbc6b2b
+0	1010	7212360481272615	CMakeFiles/profes.dir/profes.cpp.obj	fcd6b3e9d00ae2c0
+1011	1162	7212360482738692	profes.exe	640cfd79c44ecc23
+4	467	7212361027280053	CMakeFiles/profes.dir/profes.cpp.obj	fcd6b3e9d00ae2c0
+468	662	7212361029158237	profes.exe	640cfd79c44ecc23
