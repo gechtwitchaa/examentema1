@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "gestiondeestudiantes::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-gestiondeestudiantes-Debug-3f7ef59b389f529d26bd.json",
 					"name" : "gestiondeestudiantes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manejodeexcepciones::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manejodeexcepciones-Debug-51f4f020c607e69b0f52.json",
+					"name" : "manejodeexcepciones",
 					"projectIndex" : 0
 				},
 				{

@@ -139,6 +139,39 @@ build optimizaciondememoria.exe: CXX_EXECUTABLE_LINKER__optimizaciondememoria_De
   TARGET_IMPLIB = liboptimizaciondememoria.dll.a
   TARGET_PDB = optimizaciondememoria.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target manejodeexcepciones
+
+
+#############################################
+# Order-only phony target for manejodeexcepciones
+
+build cmake_object_order_depends_target_manejodeexcepciones: phony || CMakeFiles/manejodeexcepciones.dir
+
+build CMakeFiles/manejodeexcepciones.dir/manejodeexcepciones.cpp.obj: CXX_COMPILER__manejodeexcepciones_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/manejodeexcepciones.cpp || cmake_object_order_depends_target_manejodeexcepciones
+  DEP_FILE = CMakeFiles\manejodeexcepciones.dir\manejodeexcepciones.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\manejodeexcepciones.dir
+  OBJECT_FILE_DIR = CMakeFiles\manejodeexcepciones.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target manejodeexcepciones
+
+
+#############################################
+# Link the executable manejodeexcepciones.exe
+
+build manejodeexcepciones.exe: CXX_EXECUTABLE_LINKER__manejodeexcepciones_Debug CMakeFiles/manejodeexcepciones.dir/manejodeexcepciones.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\manejodeexcepciones.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = manejodeexcepciones.exe
+  TARGET_IMPLIB = libmanejodeexcepciones.dll.a
+  TARGET_PDB = manejodeexcepciones.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,6 +200,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build gestiondeestudiantes: phony gestiondeestudiantes.exe
 
+build manejodeexcepciones: phony manejodeexcepciones.exe
+
 build operacionesbasicas.cpp: phony operacionesbasicas.cpp.exe
 
 build optimizaciondememoria: phony optimizaciondememoria.exe
@@ -179,7 +214,7 @@ build optimizaciondememoria: phony optimizaciondememoria.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe
 
 # =============================================================================
 # Built-in targets

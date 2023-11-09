@@ -7,3 +7,4 @@ add_executable(operacionesbasicas.cpp
         operacionesbasicas.cpp)
 add_executable(gestiondeestudiantes gestiondeestudiantes.cpp)
 add_executable(optimizaciondememoria optimizaciondememoria.cpp)
+add_executable(manejodeexcepciones manejodeexcepciones.cpp)
