@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "examentema1.exe"
+			"path" : "operacionesbasicas.cpp.exe"
 		},
 		{
-			"path" : "examentema1.pdb"
+			"path" : "operacionesbasicas.cpp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "examentema1::@6890427a1f51a3e7e1df",
+	"id" : "operacionesbasicas.cpp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "examentema1",
-	"nameOnDisk" : "examentema1.exe",
+	"name" : "operacionesbasicas.cpp",
+	"nameOnDisk" : "operacionesbasicas.cpp.exe",
 	"paths" : 
 	{
 		"build" : ".",

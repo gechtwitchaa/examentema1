@@ -1,0 +1,12 @@
+# ninja log v5
+3	447	7212324887505273	CMakeFiles/operacionesbasicas.cpp.dir/operacionesbasicas.cpp.obj	979693eb7950462d
+1	847	7212316745039338	CMakeFiles/examentema1.dir/operacionesbasicas.cpp.obj	dc074db7917ae383
+6	463	7212320459076136	CMakeFiles/examentema1.dir/gestiondeestudiantes.cpp.obj	7b0223bb8b0fa2ec
+0	427	7212324480610917	CMakeFiles/operacionesbasicas.cpp.dir/gestiondeestudiantes.cpp.obj	4063567faf748dfe
+7	194	7212325091906593	operacionesbasicas.cpp.exe	bf63ae21e8089879
+2	203	7212326535599316	build.ninja	8a9e265106e1999d
+4	186	7212326651740878	operacionesbasicas.cpp.exe	d71e31bb0ce177ca
+0	933	7212326796107535	CMakeFiles/gestiondeestudiantes.dir/gestiondeestudiantes.cpp.obj	b6014cba6afe51e8
+934	1083	7212326797573612	gestiondeestudiantes.exe	c3b7ee379a7ff1f2
+5	460	7212327438637347	CMakeFiles/gestiondeestudiantes.dir/gestiondeestudiantes.cpp.obj	b6014cba6afe51e8
+462	648	7212327440464484	gestiondeestudiantes.exe	c3b7ee379a7ff1f2

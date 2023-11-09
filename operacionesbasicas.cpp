@@ -15,7 +15,6 @@ int main() {
     std::cout << "Ingrese el segundo número: ";
     std::cin >> numero2;
 
- 
     int resultado = sumaDosNumeros(numero1, numero2);
 
     std::cout << "La suma de " << numero1 << " y " << numero2 << " es: " << resultado << std::endl;
