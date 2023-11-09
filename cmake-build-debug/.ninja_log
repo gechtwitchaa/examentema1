@@ -6,12 +6,12 @@
 4	186	7212326651740878	operacionesbasicas.cpp.exe	d71e31bb0ce177ca
 6	629	7212339640037771	CMakeFiles/gestiondeestudiantes.dir/gestiondeestudiantes.cpp.obj	b6014cba6afe51e8
 631	813	7212339641852907	gestiondeestudiantes.exe	c3b7ee379a7ff1f2
-2	203	7212341055827536	build.ninja	8a9e265106e1999d
+2	203	7212346225912954	build.ninja	8a9e265106e1999d
 4	604	7212331384552073	CMakeFiles/optimizaciondememoria.dir/optimizaciondememoria.cpp.obj	518fa6e5f016be71
 605	792	7212331386466962	optimizaciondememoria.exe	d6edb03078042624
 0	720	7212333420396660	CMakeFiles/manejodeexcepciones.dir/manejodeexcepciones.cpp.obj	33a9188bfca82db5
 722	868	7212333421832825	manejodeexcepciones.exe	60bc09a90024e179
-1	799	7212341944521314	CMakeFiles/promediodelestudiante.dir/promediodelestudiante.cpp.obj	f361e6db4492967e
-801	970	7212341946192840	promediodelestudiante.exe	7cf590813e5bff00
 6	583	7212342511908310	CMakeFiles/promediodelestudiante.dir/promediodelestudiante.cpp.obj	f361e6db4492967e
 585	772	7212342513753368	promediodelestudiante.exe	7cf590813e5bff00
+1	981	7212347721445938	CMakeFiles/asistencia.dir/asistencia.cpp.obj	1b85875d15d3cda0
+983	1170	7212347723281023	asistencia.exe	cf71a486b0a5d8f

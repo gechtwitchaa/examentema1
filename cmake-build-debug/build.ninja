@@ -205,6 +205,39 @@ build promediodelestudiante.exe: CXX_EXECUTABLE_LINKER__promediodelestudiante_De
   TARGET_IMPLIB = libpromediodelestudiante.dll.a
   TARGET_PDB = promediodelestudiante.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target asistencia
+
+
+#############################################
+# Order-only phony target for asistencia
+
+build cmake_object_order_depends_target_asistencia: phony || CMakeFiles/asistencia.dir
+
+build CMakeFiles/asistencia.dir/asistencia.cpp.obj: CXX_COMPILER__asistencia_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/asistencia.cpp || cmake_object_order_depends_target_asistencia
+  DEP_FILE = CMakeFiles\asistencia.dir\asistencia.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\asistencia.dir
+  OBJECT_FILE_DIR = CMakeFiles\asistencia.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target asistencia
+
+
+#############################################
+# Link the executable asistencia.exe
+
+build asistencia.exe: CXX_EXECUTABLE_LINKER__asistencia_Debug CMakeFiles/asistencia.dir/asistencia.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\asistencia.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = asistencia.exe
+  TARGET_IMPLIB = libasistencia.dll.a
+  TARGET_PDB = asistencia.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -231,6 +264,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build asistencia: phony asistencia.exe
+
 build gestiondeestudiantes: phony gestiondeestudiantes.exe
 
 build manejodeexcepciones: phony manejodeexcepciones.exe
@@ -249,7 +284,7 @@ build promediodelestudiante: phony promediodelestudiante.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe
 
 # =============================================================================
 # Built-in targets

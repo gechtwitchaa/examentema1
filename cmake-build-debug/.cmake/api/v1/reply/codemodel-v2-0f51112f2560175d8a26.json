@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,12 +39,20 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "asistencia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-asistencia-Debug-6a3374274b023142701b.json",
+					"name" : "asistencia",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "gestiondeestudiantes::@6890427a1f51a3e7e1df",
