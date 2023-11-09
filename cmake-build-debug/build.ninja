@@ -271,6 +271,39 @@ build filtrado.exe: CXX_EXECUTABLE_LINKER__filtrado_Debug CMakeFiles/filtrado.di
   TARGET_IMPLIB = libfiltrado.dll.a
   TARGET_PDB = filtrado.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target excepcionespersonalizadas
+
+
+#############################################
+# Order-only phony target for excepcionespersonalizadas
+
+build cmake_object_order_depends_target_excepcionespersonalizadas: phony || CMakeFiles/excepcionespersonalizadas.dir
+
+build CMakeFiles/excepcionespersonalizadas.dir/excepcionespersonalizadas.cpp.obj: CXX_COMPILER__excepcionespersonalizadas_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/excepcionespersonalizadas.cpp || cmake_object_order_depends_target_excepcionespersonalizadas
+  DEP_FILE = CMakeFiles\excepcionespersonalizadas.dir\excepcionespersonalizadas.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\excepcionespersonalizadas.dir
+  OBJECT_FILE_DIR = CMakeFiles\excepcionespersonalizadas.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target excepcionespersonalizadas
+
+
+#############################################
+# Link the executable excepcionespersonalizadas.exe
+
+build excepcionespersonalizadas.exe: CXX_EXECUTABLE_LINKER__excepcionespersonalizadas_Debug CMakeFiles/excepcionespersonalizadas.dir/excepcionespersonalizadas.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\excepcionespersonalizadas.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = excepcionespersonalizadas.exe
+  TARGET_IMPLIB = libexcepcionespersonalizadas.dll.a
+  TARGET_PDB = excepcionespersonalizadas.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -299,6 +332,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build asistencia: phony asistencia.exe
 
+build excepcionespersonalizadas: phony excepcionespersonalizadas.exe
+
 build filtrado: phony filtrado.exe
 
 build gestiondeestudiantes: phony gestiondeestudiantes.exe
@@ -319,7 +354,7 @@ build promediodelestudiante: phony promediodelestudiante.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe filtrado.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe filtrado.exe excepcionespersonalizadas.exe
 
 # =============================================================================
 # Built-in targets
