@@ -22,5 +22,15 @@ public:
         std::cout << "Grado: " << grado << std::endl;
     }
 };
+int main() {
+    // Crear un objeto Estudiante
+    Estudiante estudiante1("Alberto González", 18, "Ingenieria Informatica");
+
+    // Llamar a la función mostrar_info() para mostrar la información del estudiante
+    std::cout << "Información del estudiante:" << std::endl;
+    estudiante1.mostrar_info();
+
+    return 0;
+}
 
 
