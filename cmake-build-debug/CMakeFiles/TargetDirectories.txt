@@ -1,4 +1,5 @@
 C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug/CMakeFiles/operacionesbasicas.cpp.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug/CMakeFiles/gestiondeestudiantes.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug/CMakeFiles/optimizaciondememoria.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

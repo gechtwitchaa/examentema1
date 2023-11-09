@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "operacionesbasicas.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-operacionesbasicas.cpp-Debug-6a4654c4eb322077c4e0.json",
 					"name" : "operacionesbasicas.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "optimizaciondememoria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-optimizaciondememoria-Debug-1206e5901bd2647be23c.json",
+					"name" : "optimizaciondememoria",
 					"projectIndex" : 0
 				}
 			]

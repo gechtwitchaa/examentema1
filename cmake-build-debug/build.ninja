@@ -106,6 +106,39 @@ build gestiondeestudiantes.exe: CXX_EXECUTABLE_LINKER__gestiondeestudiantes_Debu
   TARGET_IMPLIB = libgestiondeestudiantes.dll.a
   TARGET_PDB = gestiondeestudiantes.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target optimizaciondememoria
+
+
+#############################################
+# Order-only phony target for optimizaciondememoria
+
+build cmake_object_order_depends_target_optimizaciondememoria: phony || CMakeFiles/optimizaciondememoria.dir
+
+build CMakeFiles/optimizaciondememoria.dir/optimizaciondememoria.cpp.obj: CXX_COMPILER__optimizaciondememoria_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/optimizaciondememoria.cpp || cmake_object_order_depends_target_optimizaciondememoria
+  DEP_FILE = CMakeFiles\optimizaciondememoria.dir\optimizaciondememoria.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\optimizaciondememoria.dir
+  OBJECT_FILE_DIR = CMakeFiles\optimizaciondememoria.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target optimizaciondememoria
+
+
+#############################################
+# Link the executable optimizaciondememoria.exe
+
+build optimizaciondememoria.exe: CXX_EXECUTABLE_LINKER__optimizaciondememoria_Debug CMakeFiles/optimizaciondememoria.dir/optimizaciondememoria.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\optimizaciondememoria.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = optimizaciondememoria.exe
+  TARGET_IMPLIB = liboptimizaciondememoria.dll.a
+  TARGET_PDB = optimizaciondememoria.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +169,8 @@ build gestiondeestudiantes: phony gestiondeestudiantes.exe
 
 build operacionesbasicas.cpp: phony operacionesbasicas.cpp.exe
 
+build optimizaciondememoria: phony optimizaciondememoria.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build operacionesbasicas.cpp: phony operacionesbasicas.cpp.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe
 
 # =============================================================================
 # Built-in targets

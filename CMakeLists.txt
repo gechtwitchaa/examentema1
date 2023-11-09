@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(operacionesbasicas.cpp
         operacionesbasicas.cpp)
 add_executable(gestiondeestudiantes gestiondeestudiantes.cpp)
+add_executable(optimizaciondememoria optimizaciondememoria.cpp)
