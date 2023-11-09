@@ -35,4 +35,10 @@ int main() {
     estudiantes.push_back(Estudiante("Alvaro", 18, "Marketing"));
     estudiantes.push_back(Estudiante("Rosa", 16, "ADE"));
 
+    std::string gradoBuscado = "Ingenieria Informatica";
+
+
+    std::vector<Estudiante> estudiantesFiltrados = filtrarEstudiantesPorGrado(estudiantes, gradoBuscado);
+
+
 
