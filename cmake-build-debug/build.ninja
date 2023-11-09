@@ -172,6 +172,39 @@ build manejodeexcepciones.exe: CXX_EXECUTABLE_LINKER__manejodeexcepciones_Debug 
   TARGET_IMPLIB = libmanejodeexcepciones.dll.a
   TARGET_PDB = manejodeexcepciones.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target promediodelestudiante
+
+
+#############################################
+# Order-only phony target for promediodelestudiante
+
+build cmake_object_order_depends_target_promediodelestudiante: phony || CMakeFiles/promediodelestudiante.dir
+
+build CMakeFiles/promediodelestudiante.dir/promediodelestudiante.cpp.obj: CXX_COMPILER__promediodelestudiante_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/promediodelestudiante.cpp || cmake_object_order_depends_target_promediodelestudiante
+  DEP_FILE = CMakeFiles\promediodelestudiante.dir\promediodelestudiante.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\promediodelestudiante.dir
+  OBJECT_FILE_DIR = CMakeFiles\promediodelestudiante.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target promediodelestudiante
+
+
+#############################################
+# Link the executable promediodelestudiante.exe
+
+build promediodelestudiante.exe: CXX_EXECUTABLE_LINKER__promediodelestudiante_Debug CMakeFiles/promediodelestudiante.dir/promediodelestudiante.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\promediodelestudiante.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = promediodelestudiante.exe
+  TARGET_IMPLIB = libpromediodelestudiante.dll.a
+  TARGET_PDB = promediodelestudiante.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +239,8 @@ build operacionesbasicas.cpp: phony operacionesbasicas.cpp.exe
 
 build optimizaciondememoria: phony optimizaciondememoria.exe
 
+build promediodelestudiante: phony promediodelestudiante.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build optimizaciondememoria: phony optimizaciondememoria.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe
 
 # =============================================================================
 # Built-in targets

@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -45,14 +47,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "gestiondeestudiantes::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-gestiondeestudiantes-Debug-3f7ef59b389f529d26bd.json",
+					"jsonFile" : "target-gestiondeestudiantes-Debug-73dacd00f383d8960bf9.json",
 					"name" : "gestiondeestudiantes",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "manejodeexcepciones::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-manejodeexcepciones-Debug-51f4f020c607e69b0f52.json",
+					"jsonFile" : "target-manejodeexcepciones-Debug-916403cfbd0bc9d0f4c5.json",
 					"name" : "manejodeexcepciones",
 					"projectIndex" : 0
 				},
@@ -66,8 +68,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "optimizaciondememoria::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-optimizaciondememoria-Debug-1206e5901bd2647be23c.json",
+					"jsonFile" : "target-optimizaciondememoria-Debug-a58cfc116b7a0c367418.json",
 					"name" : "optimizaciondememoria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "promediodelestudiante::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-promediodelestudiante-Debug-2e142a226c1fa15f1009.json",
+					"name" : "promediodelestudiante",
 					"projectIndex" : 0
 				}
 			]
