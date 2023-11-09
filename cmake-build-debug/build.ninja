@@ -304,6 +304,39 @@ build excepcionespersonalizadas.exe: CXX_EXECUTABLE_LINKER__excepcionespersonali
   TARGET_IMPLIB = libexcepcionespersonalizadas.dll.a
   TARGET_PDB = excepcionespersonalizadas.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target profes
+
+
+#############################################
+# Order-only phony target for profes
+
+build cmake_object_order_depends_target_profes: phony || CMakeFiles/profes.dir
+
+build CMakeFiles/profes.dir/profes.cpp.obj: CXX_COMPILER__profes_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/profes.cpp || cmake_object_order_depends_target_profes
+  DEP_FILE = CMakeFiles\profes.dir\profes.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\profes.dir
+  OBJECT_FILE_DIR = CMakeFiles\profes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target profes
+
+
+#############################################
+# Link the executable profes.exe
+
+build profes.exe: CXX_EXECUTABLE_LINKER__profes_Debug CMakeFiles/profes.dir/profes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\profes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = profes.exe
+  TARGET_IMPLIB = libprofes.dll.a
+  TARGET_PDB = profes.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -344,6 +377,8 @@ build operacionesbasicas.cpp: phony operacionesbasicas.cpp.exe
 
 build optimizaciondememoria: phony optimizaciondememoria.exe
 
+build profes: phony profes.exe
+
 build promediodelestudiante: phony promediodelestudiante.exe
 
 # =============================================================================
@@ -354,7 +389,7 @@ build promediodelestudiante: phony promediodelestudiante.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe filtrado.exe excepcionespersonalizadas.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe filtrado.exe excepcionespersonalizadas.exe profes.exe
 
 # =============================================================================
 # Built-in targets

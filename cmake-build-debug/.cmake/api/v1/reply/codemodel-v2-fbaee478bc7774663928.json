@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -97,6 +99,13 @@
 					"id" : "optimizaciondememoria::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-optimizaciondememoria-Debug-a58cfc116b7a0c367418.json",
 					"name" : "optimizaciondememoria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "profes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-profes-Debug-41d0f8531e0dd5c20581.json",
+					"name" : "profes",
 					"projectIndex" : 0
 				},
 				{
