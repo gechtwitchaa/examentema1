@@ -238,6 +238,39 @@ build asistencia.exe: CXX_EXECUTABLE_LINKER__asistencia_Debug CMakeFiles/asisten
   TARGET_IMPLIB = libasistencia.dll.a
   TARGET_PDB = asistencia.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target filtrado
+
+
+#############################################
+# Order-only phony target for filtrado
+
+build cmake_object_order_depends_target_filtrado: phony || CMakeFiles/filtrado.dir
+
+build CMakeFiles/filtrado.dir/filtrado.cpp.obj: CXX_COMPILER__filtrado_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/filtrado.cpp || cmake_object_order_depends_target_filtrado
+  DEP_FILE = CMakeFiles\filtrado.dir\filtrado.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\filtrado.dir
+  OBJECT_FILE_DIR = CMakeFiles\filtrado.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target filtrado
+
+
+#############################################
+# Link the executable filtrado.exe
+
+build filtrado.exe: CXX_EXECUTABLE_LINKER__filtrado_Debug CMakeFiles/filtrado.dir/filtrado.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\filtrado.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = filtrado.exe
+  TARGET_IMPLIB = libfiltrado.dll.a
+  TARGET_PDB = filtrado.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -266,6 +299,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build asistencia: phony asistencia.exe
 
+build filtrado: phony filtrado.exe
+
 build gestiondeestudiantes: phony gestiondeestudiantes.exe
 
 build manejodeexcepciones: phony manejodeexcepciones.exe
@@ -284,7 +319,7 @@ build promediodelestudiante: phony promediodelestudiante.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/examentema1/cmake-build-debug
 
-build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe
+build all: phony operacionesbasicas.cpp.exe gestiondeestudiantes.exe optimizaciondememoria.exe manejodeexcepciones.exe promediodelestudiante.exe asistencia.exe filtrado.exe
 
 # =============================================================================
 # Built-in targets
