@@ -1,3 +1,5 @@
+https://github.com/gechtwitchaa/examentema1.git
+
 PARTE 1:
 1:D
 2:B
